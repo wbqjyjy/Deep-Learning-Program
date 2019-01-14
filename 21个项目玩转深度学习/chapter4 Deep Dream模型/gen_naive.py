@@ -1,3 +1,4 @@
+#coding:utf-8
 from __future__ import print_function #兼容python2,python3的print function
 import os
 from io import BytesIO
