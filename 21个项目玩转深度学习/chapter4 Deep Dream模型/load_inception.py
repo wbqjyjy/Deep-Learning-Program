@@ -1,3 +1,4 @@
+#coding:utf-8
 from __future__ import print_function #该语句是为了在python2,python3中可以使用互相兼容的print
 import numpy as np
 import tensorflow as tf
