@@ -145,7 +145,7 @@ if __name__ == '__main__':
     reader = tf.contrib.timeseries.CSVReader(
         csv_file_name,
         column_names = ((tf.contrib.timeseries.TrainEvalFeatures.TIMES,)
-                        + (tf.contrib.timeseries.TrainEvalFeatures.VALUES,) * 5))
+                        + (tf.contrib.timeseries.TrainEvalFeatures.VALUES,) * 5)) #定义了Times列和Values列
     #构建batch
     train_input_fn = tf.contrib.timeseries.RandomWindowInputFn(
         reader,batch_size=4,window_size=32)
