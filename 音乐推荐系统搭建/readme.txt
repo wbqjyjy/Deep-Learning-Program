@@ -1,0 +1,6 @@
+Data_transform_and_preprocessing : 预处理
+model_training_and_evaluation : 模型训练
+sequence_modelling : 将song2vec考虑进去
+pyspark_recommendation：利用Pyspark搭建 音乐推荐系统
+recommendation_system_learning_by_tensorflow 利用tensorflow搭建
+spark_recommendation 利用 spark搭建
